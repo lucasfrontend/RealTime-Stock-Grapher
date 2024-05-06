@@ -210,7 +210,7 @@ const Details = () => {
             />
           </div>
   
-          <div className="pt-4 d-flex justify-content-end">
+          <div className="pt-4 pb-2 d-flex justify-content-end">
             <CustomButton label="Gráficar" onClick={handleShowChart}/>
           </div>
   
