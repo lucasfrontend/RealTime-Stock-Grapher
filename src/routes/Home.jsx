@@ -69,6 +69,7 @@ const Home = () => {
   return (
     <div className="container mt-4">
       <h2>Lista de Acciones</h2>
+      <p className="text-muted">Buscar 'NFLX' para la visualización correcta de la performance. Para el resto de acciones, la API key utilizada presenta limitaciones.</p>
       <CustomSearchInput
         value={searchTermName}
         onChange={(e) => setSearchTermName(e.target.value)}
